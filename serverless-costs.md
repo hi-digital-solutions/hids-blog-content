@@ -1,14 +1,14 @@
-Maybe you're a product manager or program manager or delivery manager or otherwise accountable for software development and support budgets. Maybe your developers are talking about wanting to go "serverless" on some new work. Lots of chat about AWS and Azure and functions and lambdas and it just sounds like the latest shiny thing, bored programmers wanting to play with new toys, when you'd rather they just get on with their work, using the tried and true and trusted servers you already have in place, with their well-understood costs and support needs.
+Maybe you're a product manager or program manager or delivery manager or otherwise accountable for software development and support budgets. Maybe your developers are talking about wanting to go "serverless" on some new work. There migth be lots of chat about AWS and Azure and functions and lambdas and it just sounds like the latest shiny thing, bored programmers wanting to play with new toys.  Your first instinct might be that they just get on with their work, using the tried and true and trusted servers you already have in place, with their well-understood costs and support needs.
 
 I'm here to suggest that you listen to the developers.
 
 Recently we had to perform some upkeep on a few of our app-server VMs, after working mainly on serverless code for the last year or so[^cloud]. In doing so, I got to thinking about the costs — direct and indirect — of apps-deployed-to-a-server vs. functions-running-someplace.
 
-In particular, I have in front of me two stages of the same data flow. One runs on an Linux server (an Azure VM, specifically), alongside one other major app hosted on the same server. The other, newer, stage is comprised of two different Azure Function apps.
+In particular, I have in front of me two stages of the same data flow. One runs on an Linux server (an Azure VM, specifically), alongside one other major app hosted on the same server. The other (newer) stage is comprised of two different Azure Function apps.
 
 The older app is written in Python (though it could be written in any language) and triggered by a cron job. Logs are archived to disk, the disk is backed up, it all works just fine, like this sort of app always has. It reaches out to a web API to pull down a lot of employee and scheduling data, normalizes it, archives it, stores it to a database, etc.
 
-The newer app is written in JavaScript (though it could be written in any language) and triggered by a timer. Logs live in Application Insights, everything is archived nicely, and it just works. It reads that database, populates and updates matching Active Directory records, and passes the information on to another function app that populates and updates another system through *its* web API.
+The newer app is written in JavaScript (again, it could be written in any language) and triggered by a timer. Logs live in Application Insights, everything is archived nicely, and it just works. It reads that database, populates and updates matching Active Directory records, and passes the information on to another function app that populates and updates another system through *its* web API.
 
 The workloads are similar enough that we're not comparing apples to oranges. Maybe oranges to nectarines.
 
@@ -39,6 +39,8 @@ In both cases, we're writing and testing locally, using TDD and BDD tools along 
 But the deployment story is different: on the older system, there are firewalls to configure; in some cases, URLs to expose (along with the associated DNS updates), and so on.
 
 We deployed the newer functions to Azure, and immediately had a known, consistent, and accessible URL for our functions, as well as matching development versions of the same. Minutes vs. hours, at the least.
+
+**_I wonder if there is something to mention here about Azure providing a localized framework for testing the function app??_**
 
 ### Nothing to see here
 
