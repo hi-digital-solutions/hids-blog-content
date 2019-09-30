@@ -1,32 +1,19 @@
 # Getting Involved Early
 
 A while back I read a [great article](https://blog.prototypr.io/the-messy-shift-to-starting-together-61088323b896) that 
-outlines both the challenges and advantages of getting all necessary parties involved in a 
-project early, including developers other “tech” people.  The content resonated with me, since 
-my team was in the midst of this exact situation--we had started to participate in the “initiation” 
-phase of projects.
+outlines both the challenges and advantages of getting all necessary parties involved in a project early, including developers other “tech” people.  The content resonated with me, since my team was in the midst of this exact situation--we had started to participate in the “initiation” phase of projects.  When we say “initiation” of a project we are talking about discovery of risks, project goals, ROI, scope, etc;initiation is not strict requirements gathering.  As we move into executing on the project we follow our agile mindset to build an initial backlog and continually adjust as we learn about our users’ needs.  
 
-When we say “initiation” of a project we are talking about discovery of risks, project goals, ROI, scope, etc;
-initiation is not strict requirements gathering.  As we move into executing on the project we follow our 
-agile mindset to build an initial backlog and continually adjust as we learn about our users’ needs.  
-
-A central goal in the initiation is the identification of project outcomes and how to measure them.  This has proven to be 
-a VERY difficult task.  In the first attempt at gathering this information we usually end up with “fluffy” 
-outcomes and measures--things that are more "feel" than something quantitative.  We spend a fair amount of time on 
-this, trying to get team members to think more clearly about measurable outcomes. 
+A central goal in the initiation is the identification of project outcomes and how to measure them.  This has proven to be a VERY difficult task.  In the first attempt at gathering this information we usually end up with “fluffy” outcomes and measures--things that are more "feel" than something quantitative.  We spend a fair amount of time on this, trying to get team members to think more clearly about measurable outcomes. 
 
 One trick that I have employed with myself is to think about giving a debrief after the project is complete, to someone 
-who was not involved in the day-to-day details of the project--perhaps the CEO of the company, who is 
-interested in the outcome but not involved with everyday work.  If I want to impress them I want to have measures 
-that I can point to that say I clearly moved some needle from point "A" to point "B".  
+who was not involved in the day-to-day details of the project--perhaps the CEO of the company, who is interested in the outcome but not involved with everyday work.  If I want to impress them I want to have measures that I can point to that say I clearly moved some needle from point "A" to point "B".  
 
 Once you identify the outcomes you hope to achieve, you have a nice estimate of your return; the next step would be to understand the investment needed. This isn’t terribly difficult, but keep in mind that it is an estimate and it will change.  If something is discovered that changes any of these items (new risk, scope change, etc.) then ANYONE on the team is 
 armed with the knowledge that will allow them to "pull the andon cord" and have the team stop and evaluate the situation.  
 
 We worked on a project recently where we were **not** involved early; the project was eventually successful, but it started out with a lot of waste.  While there were technical folks involved during the initiation of the project, Their work was handed off to us, to develop a solution. When we came onto the project we spent a lot of time re-running spikes and trying to understand the decisions that were made; we lacked context and had to spend the first few weeks rebuilding that context.   
 
-Sometimes getting involved early in a project results in less work than expected.  Our team worked on another project recently where gathered all of the necessary initiation items, senior leadership reviewed the outcomes that were identified and 
-realized that there were more important efforts that needed to be worked before the one at hand.  This was great for us, because of our due diligence we didn’t spend time on work that was relatively unimportant to the business!
+Sometimes getting involved early in a project results in less work than expected.  Our team worked on another project recently where gathered all of the necessary initiation items, senior leadership reviewed the outcomes that were identified and realized that there were more important efforts that needed to be worked before the one at hand.  This was great for us, because of our due diligence we didn’t spend time on work that was relatively unimportant to the business!
 
 In another case we were brought in early, and as we worked through the initiation, it became very apparent that 
 the project didn't require much engineering effort at all.  Due to the fact we had all of the context we were able to make a quick and informed decision to step away from the project.  A key takeaway from this last example is that you should always be willing to speak up if something doesn’t feel right. Had we not done that, we may have stuck around on this project just because we were assigned to it; instead we raised our hands and made ourselves available for other work where we could provide more value. 
