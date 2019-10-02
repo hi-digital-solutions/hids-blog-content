@@ -1,7 +1,7 @@
 # Getting Involved Early
 
 A while back I read a [great article](https://blog.prototypr.io/the-messy-shift-to-starting-together-61088323b896) that 
-outlines both the challenges and advantages of getting all necessary parties involved in a project early, including developers and other “tech” people.  The content resonated with me, since my team was in the midst of this exact situation--we had started to participate in the “initiation” phase of projects.  When we say “initiation” of a project we are talking about discovery of risks, project goals, ROI, scope, etc;initiation is not strict requirements gathering.  As we move into executing on the project we follow our agile mindset to build an initial backlog and continually adjust as we learn about our users’ needs.  
+outlines both the challenges and advantages of getting all necessary parties involved in a project early, including developers and other “tech” people.  The content resonated with me, since my team was in the midst of this exact situation--we had started to participate in the “initiation” phase of projects.  When we say “initiation” of a project we are talking about discovery of risks, project goals, ROI, scope, etc; initiation is not strict requirements gathering.  As we move into executing on the project we follow our agile mindset to build an initial backlog and continually adjust as we learn about our users’ needs.  
 
 ### Measurable Outcomes
 
